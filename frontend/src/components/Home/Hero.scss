@@ -1,0 +1,48 @@
+.hero_wrapper {
+  width: 100%;
+  background: $accent-color;
+  .hero {
+    height: calc(100vh - 72px);
+    max-width: 1200px;
+    width: 100%;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    &_text {
+      max-width: 48%;
+      &__heading {
+        font-size: 50px;
+        line-height: 53px;
+      }
+      &__paragraph {
+        width: 70%;
+        padding: 30px 0;
+        color: $dark-color;
+      }
+    }
+    &_image {
+      max-width: 48%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .hero {
+      height: auto;
+      max-width: 100%;
+      padding: 50px 30px;
+      flex-wrap: wrap;
+      &_text {
+        max-width: 100%;
+        &__paragraph {
+          width: 100%;
+        }
+      }
+      &_image {
+        max-width: 90%;
+        margin: auto;
+      }
+    }
+  }
+}

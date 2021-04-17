@@ -1,0 +1,96 @@
+.contact_wrapper {
+  width: 100%;
+  background-image: url("../images/olive-background.jpeg");
+  .contact {
+    background: $light-color;
+    height: calc(100vh - 72px);
+    max-width: 500px;
+    width: 100%;
+    padding: 0 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &_heading {
+      font-size: 50px;
+      line-height: 53px;
+      margin-bottom: 30px;
+      max-width: 300px;
+    }
+    &_form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      width: 100%;
+      &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        &__label {
+          font-weight: 600;
+          font-size: 18px;
+          margin-right: 10px;
+          line-height: 14px;
+        }
+        &__input {
+          background: none;
+          border: 0;
+          border-bottom: $gray-color 2px solid;
+          width: 100%;
+          max-width: 100%;
+          padding: 15px 5px 0 0;
+          font-size: 16px;
+        }
+        &__input:focus {
+          border-bottom: $primary-color 2px solid;
+        }
+        &__textarea {
+          background: none;
+          padding: 5px;
+          border: 0;
+          border-bottom: $gray-color 2px solid;
+          border-left: $gray-color 2px solid;
+          width: 100%;
+          resize: none;
+          font-size: 16px;
+          height: 150px;
+          margin-top: 23px;
+        }
+        &__textarea:focus {
+          border-bottom: $primary-color 2px solid;
+          border-left: $primary-color 2px solid;
+        }
+      }
+      &__submit {
+        padding: 8px 21px;
+        background: $primary-color;
+        border-radius: 3px;
+        border: 0;
+        color: white;
+        font-weight: 600;
+        margin: auto;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    height: auto;
+    max-width: 100%;
+    padding: 50px 30px;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact_wrapper {
+    .contact {
+      background: $accent-color;
+    }
+  }
+}

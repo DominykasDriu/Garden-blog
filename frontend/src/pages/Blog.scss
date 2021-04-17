@@ -1,0 +1,26 @@
+.blog_wrapper {
+  width: 100%;
+  background: $accent-color;
+  .blog {
+    max-width: 1200px;
+    width: 100%;
+    min-height: calc(100vh - 72px);
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &_heading {
+      max-width: 150px;
+      font-size: 50px;
+      margin-bottom: 30px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .blog {
+      height: auto;
+      max-width: 100%;
+      padding: 50px 30px;
+    }
+  }
+}

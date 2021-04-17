@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap');
+// Colors
+$primary-color: #4a7973;
+$secondary-color: #a5c3c0;
+$accent-color: #f8f8f8;
+
+$dark-color: #000;
+$gray-color: #c2c2c2;
+$light-color: #fff;
+// Resets
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: 0;
+  text-decoration: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  a {
+    color: $dark-color;
+  }
+}
+// Selection color
+::-moz-selection {
+  color: $light-color;
+  background: $primary-color;
+}
+::selection {
+  color: $light-color;
+  background: $primary-color;
+}
+// Toaster notification override
+.Toastify__toast--info {
+  background: $secondary-color !important;
+}
+.Toastify__toast-body {
+  margin: auto !important;
+  text-align: center;
+}
+// Imports
+// Button
+@import './components/Button.scss';
+// Header
+@import './components/Header.scss';
+// Home
+@import './components/Home/Hero.scss';
+@import './components/Home/Quote.scss';
+// About
+@import './pages/About.scss';
+// Contact
+@import './pages/Contact.scss';
+// Blog
+@import './pages/Blog.scss';
+@import './components/Blog/Posts.scss';
+@import './components/Blog/Post.scss';
+// Footer
+@import './components/Footer.scss';
+// Admin
+@import './pages/Admin.scss';
+// LogIn
+@import './pages/LogIn.scss';

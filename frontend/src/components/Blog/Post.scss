@@ -1,0 +1,17 @@
+.post {
+  padding-bottom: 15px;
+  border-bottom: $gray-color 2px solid;
+  &_heading {
+    font-size: 24px;
+    padding-bottom: 20px;
+  }
+  &_body {
+    max-height: 156px;
+    overflow: hidden;
+    text-align: justify;
+  }
+  button {
+    margin-top: 20px;
+    float: right;
+  }
+}

@@ -1,0 +1,16 @@
+.quote_wrapper {
+  background: $light-color;
+  width: 100%;
+  .quote__heading {
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 30px;
+    text-align: center;
+  }
+  @media screen and (max-width: 768px) {
+    .quote__heading {
+      max-width: 100%;
+      padding: 20px 30px;
+    }
+  }
+}
