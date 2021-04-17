@@ -10,7 +10,9 @@ The page is created for a single person blog. It offers an easy admin control ov
 - Admin has access to CRUD commands on every post
 
 ### Links
+
 - Live Site URL: TBA
+- To access admin panel you need to manually add **/admin** to the URL!
 
 ### Built with
 - Frontend
@@ -36,6 +38,7 @@ The page is created for a single person blog. It offers an easy admin control ov
 - **cd** back to frontend folder
 - Run **npm install** command
 - Run **npm start** command
-- Open **http://localhost:3000** with your browser!
+- Open **http://localhost:3000** with your browser
+- To access admin panel you need to manually add **/admin** to the URL!
 
 ### Thanks for visiting!
