@@ -11,7 +11,7 @@ The page is created for a single person blog. It offers an easy admin control ov
 
 ### Links
 
-- Live Site URL: TBA
+- Live Site URL: https://dom-garden-blog.netlify.app/
 - To access admin panel you need to manually add **/admin** to the URL!
 
 ### Built with
