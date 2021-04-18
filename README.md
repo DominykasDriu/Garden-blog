@@ -13,6 +13,9 @@ The page is created for a single person blog. It offers an easy admin control ov
 
 - Live Site URL: https://dom-garden-blog.netlify.app/
 - To access admin panel you need to manually add **/admin** to the URL!
+- Username: dom
+- Password: dom123
+- You can test the functionality, but please leave the page as you found it thanks! :)
 
 ### Built with
 - Frontend
